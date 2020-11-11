@@ -74,6 +74,24 @@ aside{
     display: inline-block;
     margin: 0;
 }
+/* Estilos de Partidos */
+.proximos__container__primero{
+    height: 300px;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 25%;
+    background: rgba(91, 255, 118, 0.548);
+    box-shadow: 3px 3px 20px black;
+}
+.proximos__container__primero img,p{
+    display: inline-block;
+    text-align: center;
+}
+.proximos__container__primero time{
+    display: block;
+    text-align: center;
+}
 /* Footer */
 footer{
     position: fixed;
