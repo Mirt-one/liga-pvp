@@ -54,6 +54,7 @@ body{
 }
 .main__section article p{
     font-size: 1.2em;
+    text-align: left;
     margin-left: 20px;
     margin-bottom: 35px;
 }
