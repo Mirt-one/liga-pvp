@@ -1,8 +1,10 @@
 body{
+    position: relative;
     box-sizing: border-box;
     background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
     color: white;
     margin: 0;
+    height: 100%;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
