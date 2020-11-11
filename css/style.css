@@ -32,11 +32,11 @@ body{
 .active{
     background-color: rgba(17, 17, 17, 0.5);
 }
-/* Main */
+/* Contenido Principal */
 .main__section{
     display: inline-block;
     width: 60%;
-    margin: 40px 5% 50px 5%;
+    margin: 40px 5% 100px 5%;
     padding: 10px 50px 30px 50px;
     border-radius: 15px;
     background-color: rgba(17, 17, 17, 0.466);
@@ -94,13 +94,10 @@ aside{
 }
 /* Footer */
 footer{
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
+    position: absolute;
+    bottom: 0;
     text-align: center;
     height: 50px;
+    width: 100%;
     background: rgb(248, 161, 79);
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
+} 
