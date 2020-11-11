@@ -1,0 +1,88 @@
+body{
+    box-sizing: border-box;
+    background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Menu de navegacion */
+.nav__list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(248, 161, 79);
+    
+} 
+.nav__list2{
+    float: left;
+    border-right: 1px solid #fff;
+}
+.nav__link{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav__link:hover{
+    background-color: rgba(17, 17, 17, 0.5);
+}
+.active{
+    background-color: rgba(17, 17, 17, 0.5);
+}
+/* Main */
+.main__section{
+    display: inline-block;
+    width: 60%;
+    margin: 40px 5% 50px 5%;
+    padding: 10px 50px 30px 50px;
+    border-radius: 15px;
+    background-color: rgba(17, 17, 17, 0.466);
+}
+.main__section header h1{
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: rgb(248, 161, 79);
+}
+.main__section article header h2{
+    font-size: 2em;
+}
+.main__section article p{
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+/* Estilos de DISCORD */
+.discord__admin{
+    color: #c599ff;
+}
+.discord__owner{
+    color: #ff6161;
+}
+.discord__link{
+        text-decoration: none;
+        color: rgb(82, 123, 255);
+}
+/* Estilos de MINECRAFT */
+.minecraft__gladiador{
+    color: rgb(253, 253, 108);
+}
+aside{
+    display: inline-block;
+    margin: 0;
+}
+/* Footer */
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    height: 50px;
+    background: rgb(248, 161, 79);
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
