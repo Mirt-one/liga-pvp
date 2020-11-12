@@ -95,6 +95,11 @@ aside{
     display: block;
     text-align: center;
 }
+/* Estilos de Clasificacion */
+.table, .table__head, .table__data{
+    border-collapse: collapse;
+    border: 1px solid white;
+}
 /* Footer */
 footer{
     position: absolute;
