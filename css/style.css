@@ -4,7 +4,7 @@ body{
     background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
     color: white;
     margin: 0;
-    height: 100%;
+    min-height: 100vh;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -78,23 +78,86 @@ aside{
     margin: 0;
 }
 /* Estilos de Partidos */
-.proximos__container__primero{
-    height: 300px;
-    padding: 50px;
-    border-radius: 20px;
-    margin: 20px;
-    width: 25%;
-    background: rgba(91, 255, 118, 0.548);
-    box-shadow: 3px 3px 20px black;
+.partidos__cabecera{
+    margin-left: 5%;
+    color: #ff964a; 
 }
-.proximos__container__primero img,p{
+.partidos__titulos{
+    margin-left: 5%;
+    
+}
+.proximos__container__primero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #dd9866;
+    box-shadow: 1px 1px 20px black;
+}
+.proximos__container__primero:hover{
+    background-color: #ff964a;
+}
+.vs{
     display: inline-block;
     text-align: center;
+    color: #eee;
+    font-weight: 900;
+    font-size: 2rem;
+    text-shadow: 1px 1px 10px black;
 }
 .proximos__container__primero time{
     display: block;
     text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
+
+.jugados__container__primero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    background: #759aff;
+    box-shadow: 1px 1px 20px black;
+}
+.jugados__container__primero:hover{
+    background-color: #3e72ff;
+}
+.local{
+    display: inline-block;
+    text-align: center;
+    color: rgb(126, 253, 87);
+    margin-right: 3px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 3px black;
+}
+.visitante{
+    display: inline-block;
+    text-align: center;
+    color: rgb(255, 78, 107);
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 3px black;
+}
+.guion{
+    display: inline-block;
+    text-align: center;
+    color: #eee;
+    font-weight: 300;
+    font-size: 1.2rem;
+
+}
+
 /* Estilos de Clasificacion */
 .table, .table__head, .table__data{
     border-collapse: collapse;
@@ -103,7 +166,6 @@ aside{
 /* Footer */
 footer{
     position: absolute;
-    bottom: 0;
     text-align: center;
     height: 50px;
     width: 100%;
