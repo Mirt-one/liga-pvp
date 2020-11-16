@@ -159,13 +159,37 @@ aside{
 }
 
 /* Estilos de Clasificacion */
+.titulo__clasificacion{
+    margin-left: 5%;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.table__head{
+    background-color: #ffc477;
+    font-size: 1.1rem;
+}
+.table__data-puntos{
+    background-color: rgb(255, 187, 61);
+    font-weight: 600;
+}
+.table__data-lider{
+    background-color: rgb(66, 241, 139);
+    font-weight: 600;
+}
 .table, .table__head, .table__data{
     border-collapse: collapse;
     border: 1px solid white;
+    padding: 3px;
+    text-align: center;
 }
 /* Footer */
 footer{
     position: absolute;
+    bottom: 0;
     text-align: center;
     height: 50px;
     width: 100%;
